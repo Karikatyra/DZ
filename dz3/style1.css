@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(201, 201, 201);
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    border-bottom: 2px solid black;
+}
+
+.header li, .header a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    margin: auto;
+    font-size: 23px;
+}
+
+.boxes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    margin-top: 2.5%;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 5%;
+}
+
+.box .icon {
+    width: 50px;
+    height: 50px;
+}
+
+.photos {
+    margin-top: 2.5%;
+    display: flex;
+    justify-content: center;
+}
+
+.photo {
+    margin: auto;
+    width: 20%;
+}
+
+.complaint {
+    text-align: center;
+}
+
+.complaint a {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 50px;
+    color: black;
+    border: 2px solid black;
+    padding: 1%;
+    border-radius: 50px;
+    transition: .4s ease;
+}
+
+.complaint a:hover {
+    background-color: black;
+    color: white;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+}
+
+.map, .contact {
+    margin: auto;
+}
+
+.contact, .maps {
+    font-size: 30px;
+}
+
+.contact a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+
+.complaint {
+    margin-top: 5%;
+}
+
+.complaint input {
+    margin: auto;
+}
+
+.complaint p {
+    font-size: 35px;
+}
+
+.complaint input[type="text"], .complaint input[type="tel"], .complaint input[type="email"] {
+    display: block;
+    background: transparent;
+    transition: all .4s ease;
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding: 20px 20px;
+    font-size: 25px;
+}
+
+.complaint [type="submit"] {
+    display: block;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 5px 5px;
+    font-size: 20px;
+    border-radius: 15px;
+    transition: .4s ease;
+}
+
+.complaint input[type="submit"]:hover {
+    background-color: black;
+    color: white;
+}
+
+.complaint input[type="text"]:focus, .complaint input[type="tel"]:focus {
+    outline: none;
+    border-bottom: 2px solid green;
+}
+
+.complaint input:focus::placeholder {
+    transition: all .4s ease;
+    transform: translateY(-50px);
+}
+
+.complaint input:hover::placeholder {
+    transition: all .4s ease;
+}
+
+.complaint input[type="file"] {
+    display: block;
+	font-size: 14px;
+	color: rgb(255 255 255);
+	border-radius: 4px;
+	background-color: #419152;
+	line-height: 22px;
+	height: 40px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	transition: background-color 0.2s;
+}

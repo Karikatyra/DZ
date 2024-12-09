@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(201, 201, 201);
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    border-bottom: 2px solid black;
+}
+
+.header li, .header a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    margin: auto;
+    font-size: 23px;
+}
+
+.appeals {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 300px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box h1 {
+    font-size: 25px;
+}
+
+.box a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+
+.box img {
+    width: 300px;
+    height: 300px;
+}
+
+.shop, .food {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shops, .foods {
+    margin: 1%;
+    text-align: center;
+}
+
+.shop img, .food img {
+    border-radius: 20px;
+    width: 120px;
+    height: 120px;
+}
+
+.shops p, .foods p {
+    font-size: 20px;
+}
